@@ -6,7 +6,7 @@ import ChannelCard from "./ChannelCard";
 const Videos = ({ videos, direction }) => {
   if (!videos?.length) return "Loading...";
 //   console.log(videos);
-  let channel;
+  let channel=null;
   videos.forEach((vid) => {
     if (vid?.id?.channelId) {
       channel = vid;
@@ -20,7 +20,7 @@ const Videos = ({ videos, direction }) => {
       alignItems="start"
       gap={2}
     >
-      <ChannelCard channelDetail={channel} />
+      {channel && <ChannelCard channelDetail={channel} />}
       {videos.map((item, idx) => (
         <Box key={idx}>{item.id.videoId && <VideoCard video={item} />}</Box>
       ))}
