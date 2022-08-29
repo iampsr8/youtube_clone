@@ -33,13 +33,14 @@ const Navbar = () => {
         background: "#000",
         top: 0,
         justifyContent: "space-between",
+        zIndex:10
       }}
     >
       <Link to="/" style={{ display: "flex", alignItems: "center" }}>
         <img src={logo} alt="logo" height={40} />
         {activeHeader && (
           <h1
-            style={{ color: "white", fontFamily: "Roboto", paddingLeft: "5px" }}
+            style={{ color: "white", fontFamily: "Fira Sans Extra Condensed", paddingLeft: "5px" }}
           >
             YeahTube
           </h1>
