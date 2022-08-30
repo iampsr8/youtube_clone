@@ -44,6 +44,20 @@ a {
   outline:none;
   width:350px;
 }
+::placeholder{
+  color:#838383;
+  font-family:'Roboto';
+  font-size:14px;
+}
+
+input{
+  color:#e2e2e2;
+  font-size:14px;
+}
+
+.logo{
+  height:40px
+}
 
 .category-btn{
   font-weight: bold !important;
@@ -83,6 +97,10 @@ a {
     height: 45vh !important;
   }
   .search-bar{
-    width:200px;
+    width:150px;
+    height:40px;
+  }
+  .logo{
+    height:25px
   }
 }
