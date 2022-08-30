@@ -1,7 +1,20 @@
 # Youtube Clone Application
 ## Status: complete
 
+## 1. Homepage and Feed
+![](https://github.com/iampsr8/youtube_clone/blob/master/display/yclone1.png)
 
+## 2. Topic Pages
+![](https://github.com/iampsr8/youtube_clone/blob/master/display/yclone2.png)
+
+## 3. Channel Pages
+![](https://github.com/iampsr8/youtube_clone/blob/master/display/yclone3.png)
+
+## 4. Results from search
+![](https://github.com/iampsr8/youtube_clone/blob/master/display/yclone4.png)
+
+## 5. Video play and related videos
+![](https://github.com/iampsr8/youtube_clone/blob/master/display/yclone5.png)
 
 
 ## Available Scripts
