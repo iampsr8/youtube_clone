@@ -12,7 +12,6 @@ import TheaterComedyIcon from '@mui/icons-material/TheaterComedy';
 import FitnessCenterIcon from '@mui/icons-material/FitnessCenter';
 import DeveloperModeIcon from '@mui/icons-material/DeveloperMode';
 import SportsScoreIcon from '@mui/icons-material/SportsScore';
-import SportsIcon from '@mui/icons-material/Sports';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import AndroidIcon from '@mui/icons-material/Android';
 
