@@ -20,10 +20,11 @@ const SearchBar = () => {
       onSubmit={handleSumbit}
       sx={{
         borderRadius: 20,
-        border: "1px solid #e3e3e3",
+        border: "1px solid #3a3c41",
         pl: 2,
         boxShadow: "none",
         mr: { sm: 5 },
+        background: "#121212"
       }}
     >
       <input
@@ -31,6 +32,7 @@ const SearchBar = () => {
         placeholder="Search"
         value={searchTerm}
         onChange={(e) => setSearchTerm(e.target.value)}
+        style={{background: "#121212"}}
       />
       <IconButton type="submit" sx={{ p: "10px", color: "red" }}>
         <Search />
