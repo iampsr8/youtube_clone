@@ -20,7 +20,7 @@ const ChannelDetail = () => {
 
   // console.log(videos)
   return (
-    <Box minHeight='95vh'>
+    <Box minHeight='95vh' sx={{background: "#101010"}}>
       <Box>
         <div
           style={{

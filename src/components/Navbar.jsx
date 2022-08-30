@@ -30,20 +30,24 @@ const Navbar = () => {
       p={2}
       sx={{
         position: "sticky",
-        background: "#000",
+        background: "#1b1b1b",
         top: 0,
         justifyContent: "space-between",
         zIndex:10
       }}
     >
-      <Link to="/" style={{ display: "flex", alignItems: "center" }}>
-        <img src={logo} alt="logo" height={40} />
-        {activeHeader && (
+      <Link to="/" style={{ display: "flex", alignItems: "center"  }} >
+        <img src={logo} alt="logo" height={40} className='logo'/>
+        {activeHeader ? (
           <h1
             style={{ color: "white", fontFamily: "Fira Sans Extra Condensed", paddingLeft: "5px" }}
           >
             YeahTube
           </h1>
+        ) : (
+            <h2 style={{ color: "white", fontFamily: "Fira Sans Extra Condensed", paddingLeft: "5px" }}>
+              YeahTube
+            </h2>
         )}
         {/* <h1 style={{color:'white',fontFamily:'Roboto', paddingLeft:'5px'}}>YeahTube</h1> */}
       </Link>

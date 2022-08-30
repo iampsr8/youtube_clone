@@ -9,7 +9,7 @@ const Sidebar = ({selectedCategory,setSelectedCategory,name,setName}) => {
       <Stack direction="row" sx={{
           overflowY: 'auto',
           height: { sx: 'auto', md: '95%' },
-          flexDirection:{md: 'column'}
+          flexDirection: { md: 'column' },
       }}>
           {categories.map((category,i) => (
               <button className='category-btn'

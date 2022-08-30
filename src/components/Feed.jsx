@@ -8,7 +8,7 @@ import { fetchFromAPI } from '../utils/fetchFromAPI'
 const Feed = () => {
 
   const [name, setName] = useState('New')
-  const [selectedCategory, setSelectedCategory] = useState('News')
+  const [selectedCategory, setSelectedCategory] = useState('news')
   const [videos, setVideos] = useState([])
 
   useEffect(() => {
@@ -18,7 +18,7 @@ const Feed = () => {
 
   return (
     <Stack sx={{ flexDirection: { sx: "column", md: 'row' } }}>
-      <Box sx={{ height: { sx: 'auto', md: '92vh' }, borderRight: '1px solid #3d3d3d', px: { sx: 0, md: 2 } }}>
+      <Box sx={{ height: { sx: 'auto', md: '92vh' },background:{xs:'#1b1b1b',md:'#131313'}, borderRight: '1px solid #3d3d3d', px: { sx: 0, md: 2 } }}>
         <Sidebar
           selectedCategory={selectedCategory}
           setSelectedCategory={setSelectedCategory}
@@ -29,7 +29,7 @@ const Feed = () => {
           &copy;2022 Prateek Rath
         </Typography>
       </Box>
-      <Box p={2} sx={{overflowY:'auto',height:'90vh', flex:2}}>
+      <Box p={2} sx={{overflowY:'auto',height:'90vh', flex:2 ,background:'#101010'}}>
       <Typography variant='h4' fontWeight='bold' mb={2} sx={{color:'white'}}>
         {name} <span >Videos</span>
         </Typography>
