@@ -7,6 +7,7 @@ import { CheckCircle } from "@mui/icons-material";
 import Videos from "./Videos";
 import { fetchFromAPI } from "../utils/fetchFromAPI";
 import { borderBottom } from "@mui/system";
+import Loader from "./Loader";
 
 const VideoDetail = () => {
   const [videoDetail, setVideoDetail] = useState(null);
@@ -22,7 +23,7 @@ const VideoDetail = () => {
     );
   }, [id]);
 
-  if (!videoDetail) return "loading";
+  if (!videoDetail) return <Loader/>
 
   const {
     snippet: { title, channelId, channelTitle },
