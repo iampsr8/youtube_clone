@@ -8,7 +8,7 @@ import { fetchFromAPI } from '../utils/fetchFromAPI'
 const Feed = () => {
 
   const [name, setName] = useState('New')
-  const [selectedCategory, setSelectedCategory] = useState('news')
+  const [selectedCategory, setSelectedCategory] = useState('latest news')
   const [videos, setVideos] = useState([])
 
   useEffect(() => {

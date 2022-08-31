@@ -18,7 +18,7 @@ import AndroidIcon from '@mui/icons-material/Android';
 export const logo = 'https://i.ibb.co/s9Qys2j/logo.png';
 
 export const categories = [
-  { actual:'news',name: 'New', icon: <HomeIcon />, },
+  { actual:'latest news',name: 'New', icon: <HomeIcon />, },
   { actual:'apple mkbhd', name: 'Technology', icon: <AndroidIcon />, },
   { actual:'Freecodecamp',name: 'Coding', icon: <CodeIcon />, },
   { actual:'Formula one',name: 'Formula1', icon: <SportsScoreIcon />, },
