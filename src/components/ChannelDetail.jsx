@@ -26,7 +26,7 @@ const ChannelDetail = () => {
           style={{
             background: 'linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 0%, rgba(154,0,0,1) 100%)',
             zIndex: 10,
-            height:'300px'
+            height:'200px'
           }}
           />
           <ChannelCard channelDetail={channelDetail} marginTop='-110px' />
