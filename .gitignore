@@ -10,12 +10,6 @@
 
 # production
 /build
-
-<<<<<<< HEAD
-# Misc
-=======
-# misc
->>>>>>> fe2703c6885ab034f52bebddf5a70df64b24754f
 .DS_Store
 .env.local
 .env.development.local
